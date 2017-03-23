@@ -1,0 +1,603 @@
+Microsoft Windows [Version 10.0.14393]
+(c) 2016 Microsoft Corporation. All rights reserved.
+
+C:\WINDOWS\system32>cd C:\Program Files\MongoDB\Server\3.4\bin
+
+C:\Program Files\MongoDB\Server\3.4\bin>md data
+
+C:\Program Files\MongoDB\Server\3.4\bin>cd data
+
+C:\Program Files\MongoDB\Server\3.4\bin\data>cd db1
+The system cannot find the path specified.
+
+C:\Program Files\MongoDB\Server\3.4\bin\data>md db1
+
+C:\Program Files\MongoDB\Server\3.4\bin\data>cd ..
+
+C:\Program Files\MongoDB\Server\3.4\bin>cd ..
+
+C:\Program Files\MongoDB\Server\3.4>cd bin
+
+C:\Program Files\MongoDB\Server\3.4\bin>mongod --auth --port 27017 --dbpath /data/db1
+2017-02-18T00:51:11.458-0500 I CONTROL  [initandlisten] MongoDB starting : pid=12308 port=27017 dbpath=/data/db1 64-bit host=Karan
+2017-02-18T00:51:11.461-0500 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-02-18T00:51:11.461-0500 I CONTROL  [initandlisten] db version v3.4.2
+2017-02-18T00:51:11.461-0500 I CONTROL  [initandlisten] git version: 3f76e40c105fc223b3e5aac3e20dcd026b83b38b
+2017-02-18T00:51:11.461-0500 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1u-fips  22 Sep 2016
+2017-02-18T00:51:11.461-0500 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-02-18T00:51:11.461-0500 I CONTROL  [initandlisten] modules: none
+2017-02-18T00:51:11.462-0500 I CONTROL  [initandlisten] build environment:
+2017-02-18T00:51:11.462-0500 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2017-02-18T00:51:11.463-0500 I CONTROL  [initandlisten]     distarch: x86_64
+2017-02-18T00:51:11.463-0500 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-02-18T00:51:11.464-0500 I CONTROL  [initandlisten] options: { net: { port: 27017 }, security: { authorization: "enabled" }, storage: { dbPath: "/data/db1" } }
+2017-02-18T00:51:11.466-0500 I STORAGE  [initandlisten] exception in initAndListen: 29 Data directory /data/db1 not found., terminating
+2017-02-18T00:51:11.466-0500 I NETWORK  [initandlisten] shutdown: going to close listening sockets...
+2017-02-18T00:51:11.467-0500 I NETWORK  [initandlisten] shutdown: going to flush diaglog...
+2017-02-18T00:51:11.468-0500 I CONTROL  [initandlisten] now exiting
+2017-02-18T00:51:11.469-0500 I CONTROL  [initandlisten] shutting down with code:100
+
+C:\Program Files\MongoDB\Server\3.4\bin>mongod --auth --port 2701
+2017-02-18T00:51:22.196-0500 I CONTROL  [initandlisten] MongoDB starting : pid=6332 port=2701 dbpath=C:\data\db\ 64-bit host=Karan
+2017-02-18T00:51:22.198-0500 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-02-18T00:51:22.199-0500 I CONTROL  [initandlisten] db version v3.4.2
+2017-02-18T00:51:22.200-0500 I CONTROL  [initandlisten] git version: 3f76e40c105fc223b3e5aac3e20dcd026b83b38b
+2017-02-18T00:51:22.201-0500 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1u-fips  22 Sep 2016
+2017-02-18T00:51:22.202-0500 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-02-18T00:51:22.203-0500 I CONTROL  [initandlisten] modules: none
+2017-02-18T00:51:22.203-0500 I CONTROL  [initandlisten] build environment:
+2017-02-18T00:51:22.204-0500 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2017-02-18T00:51:22.205-0500 I CONTROL  [initandlisten]     distarch: x86_64
+2017-02-18T00:51:22.206-0500 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-02-18T00:51:22.206-0500 I CONTROL  [initandlisten] options: { net: { port: 2701 }, security: { authorization: "enabled" } }
+2017-02-18T00:51:22.208-0500 I STORAGE  [initandlisten] exception in initAndListen: 29 Data directory C:\data\db\ not found., terminating
+2017-02-18T00:51:22.208-0500 I NETWORK  [initandlisten] shutdown: going to close listening sockets...
+2017-02-18T00:51:22.210-0500 I NETWORK  [initandlisten] shutdown: going to flush diaglog...
+2017-02-18T00:51:22.211-0500 I CONTROL  [initandlisten] now exiting
+2017-02-18T00:51:22.212-0500 I CONTROL  [initandlisten] shutting down with code:100
+
+C:\Program Files\MongoDB\Server\3.4\bin>mongod --auth --port 27017
+2017-02-18T00:51:25.242-0500 I CONTROL  [initandlisten] MongoDB starting : pid=12052 port=27017 dbpath=C:\data\db\ 64-bit host=Karan
+2017-02-18T00:51:25.245-0500 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-02-18T00:51:25.246-0500 I CONTROL  [initandlisten] db version v3.4.2
+2017-02-18T00:51:25.247-0500 I CONTROL  [initandlisten] git version: 3f76e40c105fc223b3e5aac3e20dcd026b83b38b
+2017-02-18T00:51:25.248-0500 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1u-fips  22 Sep 2016
+2017-02-18T00:51:25.249-0500 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-02-18T00:51:25.250-0500 I CONTROL  [initandlisten] modules: none
+2017-02-18T00:51:25.250-0500 I CONTROL  [initandlisten] build environment:
+2017-02-18T00:51:25.251-0500 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2017-02-18T00:51:25.252-0500 I CONTROL  [initandlisten]     distarch: x86_64
+2017-02-18T00:51:25.253-0500 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-02-18T00:51:25.253-0500 I CONTROL  [initandlisten] options: { net: { port: 27017 }, security: { authorization: "enabled" } }
+2017-02-18T00:51:25.256-0500 I STORAGE  [initandlisten] exception in initAndListen: 29 Data directory C:\data\db\ not found., terminating
+2017-02-18T00:51:25.257-0500 I NETWORK  [initandlisten] shutdown: going to close listening sockets...
+2017-02-18T00:51:25.258-0500 I NETWORK  [initandlisten] shutdown: going to flush diaglog...
+2017-02-18T00:51:25.258-0500 I CONTROL  [initandlisten] now exiting
+2017-02-18T00:51:25.259-0500 I CONTROL  [initandlisten] shutting down with code:100
+
+C:\Program Files\MongoDB\Server\3.4\bin>mongod --auth --port 27017
+2017-02-18T00:51:52.299-0500 I CONTROL  [initandlisten] MongoDB starting : pid=7832 port=27017 dbpath=C:\data\db\ 64-bit host=Karan
+2017-02-18T00:51:52.301-0500 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-02-18T00:51:52.302-0500 I CONTROL  [initandlisten] db version v3.4.2
+2017-02-18T00:51:52.303-0500 I CONTROL  [initandlisten] git version: 3f76e40c105fc223b3e5aac3e20dcd026b83b38b
+2017-02-18T00:51:52.304-0500 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1u-fips  22 Sep 2016
+2017-02-18T00:51:52.305-0500 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-02-18T00:51:52.305-0500 I CONTROL  [initandlisten] modules: none
+2017-02-18T00:51:52.306-0500 I CONTROL  [initandlisten] build environment:
+2017-02-18T00:51:52.306-0500 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2017-02-18T00:51:52.307-0500 I CONTROL  [initandlisten]     distarch: x86_64
+2017-02-18T00:51:52.308-0500 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-02-18T00:51:52.308-0500 I CONTROL  [initandlisten] options: { net: { port: 27017 }, security: { authorization: "enabled" } }
+2017-02-18T00:51:52.312-0500 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=3524M,session_max=20000,eviction=(threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2017-02-18T00:51:54.136-0500 W FTDC     [initandlisten] Failed to initialize Performance Counters for FTDC: WindowsPdhError: PdhExpandCounterPathW failed with 'The specified object was not found on the computer.' for counter '\Memory\Available Bytes'
+2017-02-18T00:51:54.136-0500 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'C:/data/db/diagnostic.data'
+2017-02-18T00:51:54.694-0500 I INDEX    [initandlisten] build index on: admin.system.version properties: { v: 2, key: { version: 1 }, name: "incompatible_with_version_32", ns: "admin.system.version" }
+2017-02-18T00:51:54.694-0500 I INDEX    [initandlisten]          building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+2017-02-18T00:51:54.742-0500 I INDEX    [initandlisten] build index done.  scanned 0 total records. 0 secs
+2017-02-18T00:51:54.745-0500 I COMMAND  [initandlisten] setting featureCompatibilityVersion to 3.4
+2017-02-18T00:51:54.747-0500 I NETWORK  [thread1] waiting for connections on port 27017
+2017-02-18T00:52:33.307-0500 I NETWORK  [thread1] connection accepted from 127.0.0.1:56770 #1 (1 connection now open)
+2017-02-18T00:52:33.310-0500 I ACCESS   [conn1] note: no users configured in admin.system.users, allowing localhost access
+2017-02-18T00:52:33.311-0500 I NETWORK  [conn1] received client metadata from 127.0.0.1:56770 conn1: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.4.2" }, os: { type: "Windows", name: "Microsoft Windows 8", architecture: "x86_64", version: "6.2 (build 9200)" } }
+2017-02-18T00:52:33.325-0500 I ACCESS   [conn1] Unauthorized: not authorized on admin to execute command { getLog: "startupWarnings" }
+2017-02-18T00:57:53.495-0500 I NETWORK  [thread1] connection accepted from 127.0.0.1:57130 #2 (2 connections now open)
+2017-02-18T00:57:53.497-0500 I NETWORK  [thread1] connection accepted from 127.0.0.1:57131 #3 (3 connections now open)
+2017-02-18T00:57:53.506-0500 I NETWORK  [conn2] received client metadata from 127.0.0.1:57130 conn2: { driver: { name: "nodejs", version: "2.2.24" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.14393" }, platform: "Node.js v6.9.5, LE, mongodb-core: 2.1.8" }
+2017-02-18T00:57:53.508-0500 I NETWORK  [conn3] received client metadata from 127.0.0.1:57131 conn3: { driver: { name: "nodejs", version: "2.2.24" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.14393" }, platform: "Node.js v6.9.5, LE, mongodb-core: 2.1.8" }
+2017-02-18T00:57:53.524-0500 I ACCESS   [conn2] Unauthorized: not authorized on test to execute command { find: "dummy", filter: { _id: 1 }, limit: 1, batchSize: 1, singleBatch: true }
+2017-02-18T00:58:43.274-0500 I COMMAND  [conn1] command admin.system.users appName: "MongoDB Shell" command: insert { insert: "system.users", documents: [ { _id: "admin.myUserAdmin", user: "myUserAdmin", db: "admin", credentials: { SCRAM-SHA-1: { iterationCount: 10000, salt: "vlAiOXnu4nzFyRMXrzO60A==", storedKey: "U5Z7kzrMYfTMAcyAPhbWkFRYrXE=", serverKey: "qXSzBLLB92xTgHMGWgGskH4w1xc=" } }, roles: [ { role: "userAdminAnyDatabase", db: "admin" } ] } ] } ninserted:1 keysInserted:1 numYields:0 reslen:44 locks:{ Global: { acquireCount: { r: 10, w: 4 } }, Database: { acquireCount: { r: 3, W: 4 } }, Collection: { acquireCount: { r: 3, w: 3 } } } protocol:op_query 332ms
+2017-02-18T00:58:43.274-0500 I COMMAND  [conn1] command admin.system.version appName: "MongoDB Shell" command: createUser { createUser: "myUserAdmin", pwd: "xxx", roles: [ { role: "userAdminAnyDatabase", db: "admin" } ], digestPassword: false, writeConcern: { w: "majority", wtimeout: 300000.0 } } numYields:0 reslen:22 locks:{ Global: { acquireCount: { r: 10, w: 4 } }, Database: { acquireCount: { r: 3, W: 4 } }, Collection: { acquireCount: { r: 3, w: 3 } } } protocol:op_command 432ms
+2017-02-18T00:59:49.786-0500 I NETWORK  [thread1] connection accepted from 127.0.0.1:57154 #4 (4 connections now open)
+2017-02-18T00:59:49.788-0500 I NETWORK  [thread1] connection accepted from 127.0.0.1:57155 #5 (5 connections now open)
+2017-02-18T00:59:49.804-0500 I NETWORK  [conn4] received client metadata from 127.0.0.1:57154 conn4: { driver: { name: "nodejs", version: "2.2.24" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.14393" }, platform: "Node.js v6.9.5, LE, mongodb-core: 2.1.8" }
+2017-02-18T00:59:49.809-0500 I NETWORK  [conn5] received client metadata from 127.0.0.1:57155 conn5: { driver: { name: "nodejs", version: "2.2.24" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.14393" }, platform: "Node.js v6.9.5, LE, mongodb-core: 2.1.8" }
+2017-02-18T00:59:49.839-0500 I ACCESS   [conn4] Unauthorized: not authorized on test to execute command { find: "dummy", filter: { _id: 1 }, limit: 1, batchSize: 1, singleBatch: true }
+2017-02-18T01:03:08.488-0500 I ACCESS   [conn1] Unauthorized: not authorized on admin to execute command { grantRolesToUser: "myUserAdmin", roles: [ "readWrite" ], writeConcern: { w: "majority", wtimeout: 300000.0 } }
+2017-02-18T01:03:34.925-0500 I -        [conn1] end connection 127.0.0.1:56770 (5 connections now open)
+2017-02-18T01:03:36.991-0500 I NETWORK  [thread1] connection accepted from 127.0.0.1:57194 #6 (5 connections now open)
+2017-02-18T01:03:36.993-0500 I NETWORK  [conn6] received client metadata from 127.0.0.1:57194 conn6: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.4.2" }, os: { type: "Windows", name: "Microsoft Windows 8", architecture: "x86_64", version: "6.2 (build 9200)" } }
+2017-02-18T01:03:36.999-0500 I ACCESS   [conn6] Unauthorized: not authorized on admin to execute command { getLog: "startupWarnings" }
+2017-02-18T01:03:37.003-0500 I ACCESS   [conn6] Unauthorized: not authorized on admin to execute command { replSetGetStatus: 1.0, forShell: 1.0 }
+2017-02-18T01:03:41.147-0500 I ACCESS   [conn6] Unauthorized: not authorized on test to execute command { grantRolesToUser: "myUserAdmin", roles: [ "readWrite" ], writeConcern: { w: "majority", wtimeout: 300000.0 } }
+2017-02-18T01:03:55.643-0500 I -        [conn6] end connection 127.0.0.1:57194 (5 connections now open)
+2017-02-18T01:06:13.936-0500 I CONTROL  [thread2] Ctrl-C signal
+2017-02-18T01:06:13.936-0500 I CONTROL  [consoleTerminate] got CTRL_C_EVENT, will terminate after current cmd ends
+2017-02-18T01:06:13.937-0500 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2017-02-18T01:06:13.938-0500 I NETWORK  [consoleTerminate] closing listening socket: 116
+2017-02-18T01:06:13.939-0500 I NETWORK  [consoleTerminate] shutdown: going to flush diaglog...
+2017-02-18T01:06:13.940-0500 I FTDC     [consoleTerminate] Shutting down full-time diagnostic data capture
+2017-02-18T01:06:13.946-0500 I STORAGE  [consoleTerminate] WiredTigerKVEngine shutting down
+2017-02-18T01:06:14.344-0500 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2017-02-18T01:06:14.345-0500 I CONTROL  [consoleTerminate] now exiting
+2017-02-18T01:06:14.346-0500 I CONTROL  [consoleTerminate] shutting down with code:12
+
+C:\Program Files\MongoDB\Server\3.4\bin>mongo --port 27017 -u "myUserAdmin" -p "abc123" \
+MongoDB shell version v3.4.2
+2017-02-18T01:06:55.297-0500 E QUERY    [thread1] SyntaxError: unterminated string literal @(connect):1:14
+exception: connect failed
+
+C:\Program Files\MongoDB\Server\3.4\bin>  --authenticationDatabase "admin"mongo --port 27017 -u "myUserAdmin" -p "abc123" \
+'--authenticationDatabase' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Program Files\MongoDB\Server\3.4\bin>  --authenticationDatabase "admin"mongo --port 27017 -u "myUserAdmin" -p "abc123" \
+'--authenticationDatabase' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\Program Files\MongoDB\Server\3.4\bin>mongo --port 27017 -u "myUserAdmin" -p "abc123"mongo --port 27017 -u "myUserAdmin" -p "abc123"
+Error parsing command line:  Multiple occurrences of option "----port"
+try 'mongo --help' for more information
+
+C:\Program Files\MongoDB\Server\3.4\bin>mongo --port 27017 -u "myUserAdmin" -p "abc123" --authenticationDatabase "admin"
+MongoDB shell version v3.4.2
+connecting to: mongodb://127.0.0.1:27017/
+MongoDB server version: 3.4.2
+> db.grantRolesToUser("admin",["readWrite"])
+2017-02-18T01:08:31.274-0500 E QUERY    [thread1] Error: Could not find user admin@test :
+_getErrorWithCode@src/mongo/shell/utils.js:25:13
+DB.prototype.grantRolesToUser@src/mongo/shell/db.js:1491:19
+@(shell):1:1
+> use admin
+switched to db admin
+> db.grantRolesToUser("admin",["readWrite"])
+2017-02-18T01:08:37.421-0500 E QUERY    [thread1] Error: Could not find user admin@admin :
+_getErrorWithCode@src/mongo/shell/utils.js:25:13
+DB.prototype.grantRolesToUser@src/mongo/shell/db.js:1491:19
+@(shell):1:1
+> db.grantRolesToUser("myUserAdmin",["readWrite"])
+> db.createCollection("test")
+{ "ok" : 1 }
+> db.grantRolesToUser("myUserAdmin",[{role:"readWrite",db:"test"])
+...
+...
+> db.grantRolesToUser("myUserAdmin",[{role:"readWrite",db:"test"}])
+> show collections
+system.users
+system.version
+test
+> db.test.find()
+> ^C
+bye
+
+C:\Program Files\MongoDB\Server\3.4\bin>cd ..
+
+C:\Program Files\MongoDB\Server\3.4>cd ..
+
+C:\Program Files\MongoDB\Server>cd 3.2
+
+C:\Program Files\MongoDB\Server\3.2>cd bin
+
+C:\Program Files\MongoDB\Server\3.2\bin>mongod --port 27017 --dbpath
+Error parsing command line: the required argument for option '--dbpath' is missing
+try 'mongod --help' for more information
+
+C:\Program Files\MongoDB\Server\3.2\bin>mongod --port 27017 --dbpath /data/db1\
+2017-02-18T01:18:38.427-0500 I CONTROL  [initandlisten] MongoDB starting : pid=8588 port=27017 dbpath=/data/db1\ 64-bit host=Karan
+2017-02-18T01:18:38.433-0500 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-02-18T01:18:38.436-0500 I CONTROL  [initandlisten] db version v3.2.9
+2017-02-18T01:18:38.438-0500 I CONTROL  [initandlisten] git version: 22ec9e93b40c85fc7cae7d56e7d6a02fd811088c
+2017-02-18T01:18:38.439-0500 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1p-fips 9 Jul 2015
+2017-02-18T01:18:38.440-0500 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-02-18T01:18:38.441-0500 I CONTROL  [initandlisten] modules: none
+2017-02-18T01:18:38.442-0500 I CONTROL  [initandlisten] build environment:
+2017-02-18T01:18:38.443-0500 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2017-02-18T01:18:38.444-0500 I CONTROL  [initandlisten]     distarch: x86_64
+2017-02-18T01:18:38.445-0500 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-02-18T01:18:38.447-0500 I CONTROL  [initandlisten] options: { net: { port: 27017 }, storage: { dbPath: "/data/db1\" } }
+2017-02-18T01:18:38.449-0500 E NETWORK  [initandlisten] listen(): bind() failed errno:10048 Only one usage of each socket address (protocol/network address/port) is normally permitted. for socket: 0.0.0.0:27017
+2017-02-18T01:18:38.450-0500 E STORAGE  [initandlisten] Failed to set up sockets during startup.
+2017-02-18T01:18:38.451-0500 I CONTROL  [initandlisten] dbexit:  rc: 48
+
+C:\Program Files\MongoDB\Server\3.2\bin>mongod --port 27017 --dbpath /data/db1
+2017-02-18T01:18:40.274-0500 I CONTROL  [initandlisten] MongoDB starting : pid=12084 port=27017 dbpath=/data/db1 64-bit host=Karan
+2017-02-18T01:18:40.277-0500 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-02-18T01:18:40.278-0500 I CONTROL  [initandlisten] db version v3.2.9
+2017-02-18T01:18:40.279-0500 I CONTROL  [initandlisten] git version: 22ec9e93b40c85fc7cae7d56e7d6a02fd811088c
+2017-02-18T01:18:40.280-0500 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1p-fips 9 Jul 2015
+2017-02-18T01:18:40.281-0500 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-02-18T01:18:40.281-0500 I CONTROL  [initandlisten] modules: none
+2017-02-18T01:18:40.282-0500 I CONTROL  [initandlisten] build environment:
+2017-02-18T01:18:40.283-0500 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2017-02-18T01:18:40.284-0500 I CONTROL  [initandlisten]     distarch: x86_64
+2017-02-18T01:18:40.285-0500 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-02-18T01:18:40.286-0500 I CONTROL  [initandlisten] options: { net: { port: 27017 }, storage: { dbPath: "/data/db1" } }
+2017-02-18T01:18:40.287-0500 E NETWORK  [initandlisten] listen(): bind() failed errno:10048 Only one usage of each socket address (protocol/network address/port) is normally permitted. for socket: 0.0.0.0:27017
+2017-02-18T01:18:40.289-0500 E STORAGE  [initandlisten] Failed to set up sockets during startup.
+2017-02-18T01:18:40.290-0500 I CONTROL  [initandlisten] dbexit:  rc: 48
+
+C:\Program Files\MongoDB\Server\3.2\bin>mongod --port 27017 --dbpath /data/db1\
+2017-02-18T01:19:12.936-0500 I CONTROL  [initandlisten] MongoDB starting : pid=11800 port=27017 dbpath=/data/db1\ 64-bit host=Karan
+2017-02-18T01:19:12.938-0500 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-02-18T01:19:12.939-0500 I CONTROL  [initandlisten] db version v3.2.9
+2017-02-18T01:19:12.940-0500 I CONTROL  [initandlisten] git version: 22ec9e93b40c85fc7cae7d56e7d6a02fd811088c
+2017-02-18T01:19:12.941-0500 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1p-fips 9 Jul 2015
+2017-02-18T01:19:12.942-0500 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-02-18T01:19:12.943-0500 I CONTROL  [initandlisten] modules: none
+2017-02-18T01:19:12.944-0500 I CONTROL  [initandlisten] build environment:
+2017-02-18T01:19:12.945-0500 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2017-02-18T01:19:12.945-0500 I CONTROL  [initandlisten]     distarch: x86_64
+2017-02-18T01:19:12.946-0500 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-02-18T01:19:12.947-0500 I CONTROL  [initandlisten] options: { net: { port: 27017 }, storage: { dbPath: "/data/db1\" } }
+2017-02-18T01:19:12.950-0500 I STORAGE  [initandlisten] exception in initAndListen: 29 Data directory /data/db1\ not found., terminating
+2017-02-18T01:19:12.951-0500 I CONTROL  [initandlisten] dbexit:  rc: 100
+
+C:\Program Files\MongoDB\Server\3.2\bin>mongod --port 27017 --dbpath /data/db1
+2017-02-18T01:19:14.966-0500 I CONTROL  [initandlisten] MongoDB starting : pid=996 port=27017 dbpath=/data/db1 64-bit host=Karan
+2017-02-18T01:19:14.968-0500 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-02-18T01:19:14.969-0500 I CONTROL  [initandlisten] db version v3.2.9
+2017-02-18T01:19:14.969-0500 I CONTROL  [initandlisten] git version: 22ec9e93b40c85fc7cae7d56e7d6a02fd811088c
+2017-02-18T01:19:14.970-0500 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1p-fips 9 Jul 2015
+2017-02-18T01:19:14.971-0500 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-02-18T01:19:14.972-0500 I CONTROL  [initandlisten] modules: none
+2017-02-18T01:19:14.973-0500 I CONTROL  [initandlisten] build environment:
+2017-02-18T01:19:14.973-0500 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2017-02-18T01:19:14.974-0500 I CONTROL  [initandlisten]     distarch: x86_64
+2017-02-18T01:19:14.975-0500 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-02-18T01:19:14.975-0500 I CONTROL  [initandlisten] options: { net: { port: 27017 }, storage: { dbPath: "/data/db1" } }
+2017-02-18T01:19:14.978-0500 I STORAGE  [initandlisten] exception in initAndListen: 29 Data directory /data/db1 not found., terminating
+2017-02-18T01:19:14.978-0500 I CONTROL  [initandlisten] dbexit:  rc: 100
+
+C:\Program Files\MongoDB\Server\3.2\bin>md data
+
+C:\Program Files\MongoDB\Server\3.2\bin>cd data
+
+C:\Program Files\MongoDB\Server\3.2\bin\data>md db1
+
+C:\Program Files\MongoDB\Server\3.2\bin\data>cd ..
+
+C:\Program Files\MongoDB\Server\3.2\bin>mongod --port 27017 --dbpath /data/db1
+2017-02-18T01:19:41.046-0500 I CONTROL  [initandlisten] MongoDB starting : pid=7832 port=27017 dbpath=/data/db1 64-bit host=Karan
+2017-02-18T01:19:41.048-0500 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-02-18T01:19:41.049-0500 I CONTROL  [initandlisten] db version v3.2.9
+2017-02-18T01:19:41.050-0500 I CONTROL  [initandlisten] git version: 22ec9e93b40c85fc7cae7d56e7d6a02fd811088c
+2017-02-18T01:19:41.051-0500 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1p-fips 9 Jul 2015
+2017-02-18T01:19:41.052-0500 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-02-18T01:19:41.053-0500 I CONTROL  [initandlisten] modules: none
+2017-02-18T01:19:41.053-0500 I CONTROL  [initandlisten] build environment:
+2017-02-18T01:19:41.054-0500 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2017-02-18T01:19:41.055-0500 I CONTROL  [initandlisten]     distarch: x86_64
+2017-02-18T01:19:41.056-0500 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-02-18T01:19:41.056-0500 I CONTROL  [initandlisten] options: { net: { port: 27017 }, storage: { dbPath: "/data/db1" } }
+2017-02-18T01:19:41.060-0500 I STORAGE  [initandlisten] exception in initAndListen: 29 Data directory /data/db1 not found., terminating
+2017-02-18T01:19:41.060-0500 I CONTROL  [initandlisten] dbexit:  rc: 100
+
+C:\Program Files\MongoDB\Server\3.2\bin>mongod --port 27017 --dbpath /data/db
+2017-02-18T01:19:57.200-0500 I CONTROL  [initandlisten] MongoDB starting : pid=864 port=27017 dbpath=/data/db 64-bit host=Karan
+2017-02-18T01:19:57.202-0500 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-02-18T01:19:57.203-0500 I CONTROL  [initandlisten] db version v3.2.9
+2017-02-18T01:19:57.204-0500 I CONTROL  [initandlisten] git version: 22ec9e93b40c85fc7cae7d56e7d6a02fd811088c
+2017-02-18T01:19:57.205-0500 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1p-fips 9 Jul 2015
+2017-02-18T01:19:57.206-0500 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-02-18T01:19:57.207-0500 I CONTROL  [initandlisten] modules: none
+2017-02-18T01:19:57.207-0500 I CONTROL  [initandlisten] build environment:
+2017-02-18T01:19:57.208-0500 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2017-02-18T01:19:57.209-0500 I CONTROL  [initandlisten]     distarch: x86_64
+2017-02-18T01:19:57.210-0500 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-02-18T01:19:57.211-0500 I CONTROL  [initandlisten] options: { net: { port: 27017 }, storage: { dbPath: "/data/db" } }
+2017-02-18T01:19:57.214-0500 I -        [initandlisten] Detected data files in /data/db created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2017-02-18T01:19:57.217-0500 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=4G,session_max=20000,eviction=(threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2017-02-18T01:19:58.226-0500 F INDEX    [initandlisten] Found an invalid index { v: 2, key: { _id: 1 }, name: "_id_", ns: "admin.system.users" } on the admin.system.users collection: this version of mongod cannot build new indexes of version number 2
+2017-02-18T01:19:58.226-0500 I -        [initandlisten] Fatal Assertion 28782
+2017-02-18T01:19:58.227-0500 I -        [initandlisten]
+
+***aborting after fassert() failure
+
+
+
+C:\Program Files\MongoDB\Server\3.2\bin>mongod --port 27017 --dbpath /data/db1
+2017-02-18T01:20:51.320-0500 I CONTROL  [initandlisten] MongoDB starting : pid=11508 port=27017 dbpath=/data/db1 64-bit host=Karan
+2017-02-18T01:20:51.323-0500 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-02-18T01:20:51.324-0500 I CONTROL  [initandlisten] db version v3.2.9
+2017-02-18T01:20:51.325-0500 I CONTROL  [initandlisten] git version: 22ec9e93b40c85fc7cae7d56e7d6a02fd811088c
+2017-02-18T01:20:51.326-0500 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1p-fips 9 Jul 2015
+2017-02-18T01:20:51.327-0500 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-02-18T01:20:51.328-0500 I CONTROL  [initandlisten] modules: none
+2017-02-18T01:20:51.328-0500 I CONTROL  [initandlisten] build environment:
+2017-02-18T01:20:51.329-0500 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2017-02-18T01:20:51.330-0500 I CONTROL  [initandlisten]     distarch: x86_64
+2017-02-18T01:20:51.331-0500 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-02-18T01:20:51.332-0500 I CONTROL  [initandlisten] options: { net: { port: 27017 }, storage: { dbPath: "/data/db1" } }
+2017-02-18T01:20:51.336-0500 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=4G,session_max=20000,eviction=(threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2017-02-18T01:20:52.075-0500 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2017-02-18T01:20:52.075-0500 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/data/db1/diagnostic.data'
+2017-02-18T01:20:52.206-0500 I NETWORK  [initandlisten] waiting for connections on port 27017
+2017-02-18T01:21:37.864-0500 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57949 #1 (1 connection now open)
+2017-02-18T01:21:55.696-0500 I COMMAND  [conn1] update admin.system.version query: { _id: "authSchema" } update: { $set: { currentVersion: 5 } } keysExamined:0 docsExamined:0 nMatched:1 nModified:1 upsert:1 keyUpdates:0 writeConflicts:0 numYields:0 locks:{ Global: { acquireCount: { r: 2, w: 2 } }, Database: { acquireCount: { W: 2 } } } 113ms
+2017-02-18T01:21:55.895-0500 I COMMAND  [conn1] insert admin.system.users ninserted:1 keyUpdates:0 writeConflicts:0 numYields:0 locks:{ Global: { acquireCount: { r: 4, w: 4 } }, Database: { acquireCount: { W: 4 } }, Collection: { acquireCount: { w: 1 } } } 198ms
+2017-02-18T01:21:55.895-0500 I COMMAND  [conn1] command admin.$cmd command: createUser { createUser: "myUserAdmin", pwd: "xxx", roles: [ { role: "userAdminAnyDatabase", db: "admin" } ], digestPassword: false, writeConcern: { w: "majority", wtimeout: 30000.0 } } keyUpdates:0 writeConflicts:0 numYields:0 reslen:22 locks:{ Global: { acquireCount: { r: 4, w: 4 } }, Database: { acquireCount: { W: 4 } }, Collection: { acquireCount: { w: 1 } } } protocol:op_command 344ms
+2017-02-18T01:22:08.369-0500 I CONTROL  [thread1] Ctrl-C signal
+2017-02-18T01:22:08.369-0500 I CONTROL  [consoleTerminate] got CTRL_C_EVENT, will terminate after current cmd ends
+2017-02-18T01:22:08.370-0500 I FTDC     [consoleTerminate] Shutting down full-time diagnostic data capture
+2017-02-18T01:22:08.376-0500 I CONTROL  [consoleTerminate] now exiting
+2017-02-18T01:22:08.376-0500 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2017-02-18T01:22:08.378-0500 I NETWORK  [consoleTerminate] closing listening socket: 584
+2017-02-18T01:22:08.379-0500 I NETWORK  [consoleTerminate] shutdown: going to flush diaglog...
+2017-02-18T01:22:08.381-0500 I NETWORK  [consoleTerminate] shutdown: going to close sockets...
+2017-02-18T01:22:08.384-0500 I STORAGE  [consoleTerminate] WiredTigerKVEngine shutting down
+2017-02-18T01:22:08.385-0500 I NETWORK  [conn1] end connection 127.0.0.1:57949 (0 connections now open)
+2017-02-18T01:22:09.069-0500 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2017-02-18T01:22:09.070-0500 I CONTROL  [consoleTerminate] dbexit:  rc: 12
+
+C:\Program Files\MongoDB\Server\3.2\bin>mongod --auth --port 27017 --dbpath /data/db1
+2017-02-18T01:22:21.517-0500 I CONTROL  [initandlisten] MongoDB starting : pid=12080 port=27017 dbpath=/data/db1 64-bit host=Karan
+2017-02-18T01:22:21.520-0500 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-02-18T01:22:21.522-0500 I CONTROL  [initandlisten] db version v3.2.9
+2017-02-18T01:22:21.522-0500 I CONTROL  [initandlisten] git version: 22ec9e93b40c85fc7cae7d56e7d6a02fd811088c
+2017-02-18T01:22:21.523-0500 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1p-fips 9 Jul 2015
+2017-02-18T01:22:21.524-0500 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-02-18T01:22:21.525-0500 I CONTROL  [initandlisten] modules: none
+2017-02-18T01:22:21.526-0500 I CONTROL  [initandlisten] build environment:
+2017-02-18T01:22:21.527-0500 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2017-02-18T01:22:21.528-0500 I CONTROL  [initandlisten]     distarch: x86_64
+2017-02-18T01:22:21.529-0500 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-02-18T01:22:21.530-0500 I CONTROL  [initandlisten] options: { net: { port: 27017 }, security: { authorization: "enabled" }, storage: { dbPath: "/data/db1" } }
+2017-02-18T01:22:21.534-0500 I -        [initandlisten] Detected data files in /data/db1 created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2017-02-18T01:22:21.537-0500 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=4G,session_max=20000,eviction=(threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2017-02-18T01:22:22.710-0500 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2017-02-18T01:22:22.710-0500 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/data/db1/diagnostic.data'
+2017-02-18T01:22:22.718-0500 I NETWORK  [initandlisten] waiting for connections on port 27017
+2017-02-18T01:23:01.658-0500 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57956 #1 (1 connection now open)
+2017-02-18T01:23:01.702-0500 I ACCESS   [conn1] Successfully authenticated as principal myUserAdmin on admin
+2017-02-18T01:23:01.709-0500 I ACCESS   [conn1] Unauthorized: not authorized on admin to execute command { getLog: "startupWarnings" }
+2017-02-18T01:23:01.713-0500 I ACCESS   [conn1] Unauthorized: not authorized on admin to execute command { replSetGetStatus: 1.0, forShell: 1.0 }
+2017-02-18T01:23:25.311-0500 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57965 #2 (2 connections now open)
+2017-02-18T01:23:25.312-0500 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:57966 #3 (3 connections now open)
+2017-02-18T01:23:25.348-0500 I ACCESS   [conn2] Unauthorized: not authorized on test to execute command { find: "dummy", filter: { _id: 1 }, limit: 1, batchSize: 1, singleBatch: true }
+2017-02-18T01:24:44.607-0500 I CONTROL  [thread1] Ctrl-C signal
+2017-02-18T01:24:44.607-0500 I CONTROL  [consoleTerminate] got CTRL_C_EVENT, will terminate after current cmd ends
+2017-02-18T01:24:44.609-0500 I FTDC     [consoleTerminate] Shutting down full-time diagnostic data capture
+2017-02-18T01:24:44.612-0500 I CONTROL  [consoleTerminate] now exiting
+2017-02-18T01:24:44.613-0500 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2017-02-18T01:24:44.613-0500 I NETWORK  [consoleTerminate] closing listening socket: 616
+2017-02-18T01:24:44.614-0500 I NETWORK  [consoleTerminate] shutdown: going to flush diaglog...
+2017-02-18T01:24:44.615-0500 I NETWORK  [consoleTerminate] shutdown: going to close sockets...
+2017-02-18T01:24:44.616-0500 I STORAGE  [consoleTerminate] WiredTigerKVEngine shutting down
+2017-02-18T01:24:44.616-0500 I NETWORK  [conn2] end connection 127.0.0.1:57965 (2 connections now open)
+2017-02-18T01:24:44.616-0500 I NETWORK  [conn1] end connection 127.0.0.1:57956 (2 connections now open)
+2017-02-18T01:24:44.616-0500 I NETWORK  [conn3] end connection 127.0.0.1:57966 (2 connections now open)
+2017-02-18T01:24:44.971-0500 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2017-02-18T01:24:44.972-0500 I CONTROL  [consoleTerminate] dbexit:  rc: 12
+
+C:\Program Files\MongoDB\Server\3.2\bin>mongod --auth --port 27017 --dbpath /data/db1
+2017-02-18T01:24:49.692-0500 I CONTROL  [initandlisten] MongoDB starting : pid=7220 port=27017 dbpath=/data/db1 64-bit host=Karan
+2017-02-18T01:24:49.695-0500 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-02-18T01:24:49.697-0500 I CONTROL  [initandlisten] db version v3.2.9
+2017-02-18T01:24:49.698-0500 I CONTROL  [initandlisten] git version: 22ec9e93b40c85fc7cae7d56e7d6a02fd811088c
+2017-02-18T01:24:49.700-0500 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1p-fips 9 Jul 2015
+2017-02-18T01:24:49.701-0500 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-02-18T01:24:49.702-0500 I CONTROL  [initandlisten] modules: none
+2017-02-18T01:24:49.704-0500 I CONTROL  [initandlisten] build environment:
+2017-02-18T01:24:49.707-0500 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2017-02-18T01:24:49.709-0500 I CONTROL  [initandlisten]     distarch: x86_64
+2017-02-18T01:24:49.710-0500 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-02-18T01:24:49.711-0500 I CONTROL  [initandlisten] options: { net: { port: 27017 }, security: { authorization: "enabled" }, storage: { dbPath: "/data/db1" } }
+2017-02-18T01:24:49.715-0500 I -        [initandlisten] Detected data files in /data/db1 created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2017-02-18T01:24:49.722-0500 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=4G,session_max=20000,eviction=(threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2017-02-18T01:24:50.733-0500 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/data/db1/diagnostic.data'
+2017-02-18T01:24:50.733-0500 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2017-02-18T01:24:50.739-0500 I NETWORK  [initandlisten] waiting for connections on port 27017
+2017-02-18T01:24:51.641-0500 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58005 #1 (1 connection now open)
+2017-02-18T01:24:51.650-0500 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58006 #2 (2 connections now open)
+2017-02-18T01:25:00.872-0500 I NETWORK  [conn2] end connection 127.0.0.1:58006 (1 connection now open)
+2017-02-18T01:25:00.872-0500 I NETWORK  [conn1] end connection 127.0.0.1:58005 (1 connection now open)
+2017-02-18T01:36:04.768-0500 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58107 #3 (1 connection now open)
+2017-02-18T01:37:21.393-0500 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58108 #4 (2 connections now open)
+2017-02-18T01:37:21.393-0500 I NETWORK  [conn3] end connection 127.0.0.1:58107 (0 connections now open)
+2017-02-18T01:37:21.406-0500 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58113 #5 (2 connections now open)
+2017-02-18T01:37:21.406-0500 I NETWORK  [conn4] end connection 127.0.0.1:58108 (0 connections now open)
+2017-02-18T01:37:21.411-0500 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58114 #6 (2 connections now open)
+2017-02-18T01:37:21.442-0500 I ACCESS   [conn5] Unauthorized: not authorized on test to execute command { find: "dummy", filter: { _id: 1 }, limit: 1, batchSize: 1, singleBatch: true }
+2017-02-18T01:37:27.897-0500 I CONTROL  [thread1] Ctrl-C signal
+2017-02-18T01:37:27.898-0500 I CONTROL  [consoleTerminate] got CTRL_C_EVENT, will terminate after current cmd ends
+2017-02-18T01:37:27.899-0500 I FTDC     [consoleTerminate] Shutting down full-time diagnostic data capture
+2017-02-18T01:37:27.903-0500 I CONTROL  [consoleTerminate] now exiting
+2017-02-18T01:37:27.903-0500 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2017-02-18T01:37:27.904-0500 I NETWORK  [consoleTerminate] closing listening socket: 588
+2017-02-18T01:37:27.905-0500 I NETWORK  [consoleTerminate] shutdown: going to flush diaglog...
+2017-02-18T01:37:27.906-0500 I NETWORK  [consoleTerminate] shutdown: going to close sockets...
+2017-02-18T01:37:27.912-0500 I STORAGE  [consoleTerminate] WiredTigerKVEngine shutting down
+2017-02-18T01:37:27.912-0500 I NETWORK  [conn5] end connection 127.0.0.1:58113 (1 connection now open)
+2017-02-18T01:37:27.913-0500 I NETWORK  [conn6] end connection 127.0.0.1:58114 (1 connection now open)
+2017-02-18T01:37:28.251-0500 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2017-02-18T01:37:28.252-0500 I CONTROL  [consoleTerminate] dbexit:  rc: 12
+
+C:\Program Files\MongoDB\Server\3.2\bin>mongod --auth --port 27017 --dbpath /data/db1
+2017-02-18T01:37:32.415-0500 I CONTROL  [initandlisten] MongoDB starting : pid=11908 port=27017 dbpath=/data/db1 64-bit host=Karan
+2017-02-18T01:37:32.420-0500 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-02-18T01:37:32.421-0500 I CONTROL  [initandlisten] db version v3.2.9
+2017-02-18T01:37:32.423-0500 I CONTROL  [initandlisten] git version: 22ec9e93b40c85fc7cae7d56e7d6a02fd811088c
+2017-02-18T01:37:32.424-0500 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1p-fips 9 Jul 2015
+2017-02-18T01:37:32.425-0500 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-02-18T01:37:32.426-0500 I CONTROL  [initandlisten] modules: none
+2017-02-18T01:37:32.427-0500 I CONTROL  [initandlisten] build environment:
+2017-02-18T01:37:32.428-0500 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2017-02-18T01:37:32.429-0500 I CONTROL  [initandlisten]     distarch: x86_64
+2017-02-18T01:37:32.430-0500 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-02-18T01:37:32.434-0500 I CONTROL  [initandlisten] options: { net: { port: 27017 }, security: { authorization: "enabled" }, storage: { dbPath: "/data/db1" } }
+2017-02-18T01:37:32.440-0500 I -        [initandlisten] Detected data files in /data/db1 created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2017-02-18T01:37:32.447-0500 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=4G,session_max=20000,eviction=(threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2017-02-18T01:37:33.602-0500 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/data/db1/diagnostic.data'
+2017-02-18T01:37:33.602-0500 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2017-02-18T01:37:33.609-0500 I NETWORK  [initandlisten] waiting for connections on port 27017
+2017-02-18T01:37:33.942-0500 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58120 #1 (1 connection now open)
+2017-02-18T01:37:33.947-0500 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58119 #2 (2 connections now open)
+2017-02-18T01:37:53.193-0500 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58121 #3 (3 connections now open)
+2017-02-18T01:37:53.194-0500 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58122 #4 (4 connections now open)
+2017-02-18T01:37:53.289-0500 I ACCESS   [conn3] Unauthorized: not authorized on test to execute command { find: "dummy", filter: { _id: 1 }, limit: 1, batchSize: 1, singleBatch: true }
+2017-02-18T01:38:17.388-0500 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58124 #5 (5 connections now open)
+2017-02-18T01:38:17.390-0500 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58125 #6 (6 connections now open)
+2017-02-18T01:38:17.467-0500 I ACCESS   [conn5] Unauthorized: not authorized on test to execute command { find: "dummy", filter: { _id: 1 }, limit: 1, batchSize: 1, singleBatch: true }
+2017-02-18T01:41:25.184-0500 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58132 #7 (7 connections now open)
+2017-02-18T01:41:25.216-0500 I ACCESS   [conn7] Successfully authenticated as principal myUserAdmin on admin
+2017-02-18T01:42:23.025-0500 I CONTROL  [thread1] Ctrl-C signal
+2017-02-18T01:42:23.025-0500 I CONTROL  [consoleTerminate] got CTRL_C_EVENT, will terminate after current cmd ends
+2017-02-18T01:42:23.026-0500 I FTDC     [consoleTerminate] Shutting down full-time diagnostic data capture
+2017-02-18T01:42:23.029-0500 I CONTROL  [consoleTerminate] now exiting
+2017-02-18T01:42:23.030-0500 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2017-02-18T01:42:23.030-0500 I NETWORK  [consoleTerminate] closing listening socket: 540
+2017-02-18T01:42:23.030-0500 I NETWORK  [consoleTerminate] shutdown: going to flush diaglog...
+2017-02-18T01:42:23.030-0500 I NETWORK  [consoleTerminate] shutdown: going to close sockets...
+2017-02-18T01:42:23.030-0500 I STORAGE  [consoleTerminate] WiredTigerKVEngine shutting down
+2017-02-18T01:42:23.031-0500 I NETWORK  [conn7] end connection 127.0.0.1:58132 (6 connections now open)
+2017-02-18T01:42:23.031-0500 I NETWORK  [conn6] end connection 127.0.0.1:58125 (6 connections now open)
+2017-02-18T01:42:23.031-0500 I NETWORK  [conn1] end connection 127.0.0.1:58120 (6 connections now open)
+2017-02-18T01:42:23.031-0500 I NETWORK  [conn5] end connection 127.0.0.1:58124 (6 connections now open)
+2017-02-18T01:42:23.031-0500 I NETWORK  [conn2] end connection 127.0.0.1:58119 (6 connections now open)
+2017-02-18T01:42:23.031-0500 I NETWORK  [conn3] end connection 127.0.0.1:58121 (6 connections now open)
+2017-02-18T01:42:23.031-0500 I NETWORK  [conn4] end connection 127.0.0.1:58122 (3 connections now open)
+2017-02-18T01:42:23.437-0500 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2017-02-18T01:42:23.438-0500 I CONTROL  [consoleTerminate] dbexit:  rc: 12
+
+C:\Program Files\MongoDB\Server\3.2\bin>mongod --port 27017 --dbpath /data/db1
+2017-02-18T01:42:25.589-0500 I CONTROL  [initandlisten] MongoDB starting : pid=9632 port=27017 dbpath=/data/db1 64-bit host=Karan
+2017-02-18T01:42:25.593-0500 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-02-18T01:42:25.595-0500 I CONTROL  [initandlisten] db version v3.2.9
+2017-02-18T01:42:25.596-0500 I CONTROL  [initandlisten] git version: 22ec9e93b40c85fc7cae7d56e7d6a02fd811088c
+2017-02-18T01:42:25.597-0500 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1p-fips 9 Jul 2015
+2017-02-18T01:42:25.598-0500 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-02-18T01:42:25.599-0500 I CONTROL  [initandlisten] modules: none
+2017-02-18T01:42:25.600-0500 I CONTROL  [initandlisten] build environment:
+2017-02-18T01:42:25.601-0500 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2017-02-18T01:42:25.601-0500 I CONTROL  [initandlisten]     distarch: x86_64
+2017-02-18T01:42:25.602-0500 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-02-18T01:42:25.603-0500 I CONTROL  [initandlisten] options: { net: { port: 27017 }, storage: { dbPath: "/data/db1" } }
+2017-02-18T01:42:25.606-0500 I -        [initandlisten] Detected data files in /data/db1 created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2017-02-18T01:42:25.613-0500 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=4G,session_max=20000,eviction=(threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2017-02-18T01:42:26.706-0500 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2017-02-18T01:42:26.706-0500 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/data/db1/diagnostic.data'
+2017-02-18T01:42:26.711-0500 I NETWORK  [initandlisten] waiting for connections on port 27017
+2017-02-18T01:42:26.816-0500 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58156 #1 (1 connection now open)
+2017-02-18T01:42:27.081-0500 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58151 #2 (2 connections now open)
+2017-02-18T01:42:27.114-0500 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58152 #3 (3 connections now open)
+2017-02-18T01:42:27.174-0500 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58153 #4 (4 connections now open)
+2017-02-18T01:42:27.182-0500 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58155 #5 (5 connections now open)
+2017-02-18T01:42:27.189-0500 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58154 #6 (6 connections now open)
+2017-02-18T01:42:45.134-0500 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58159 #7 (7 connections now open)
+2017-02-18T01:42:45.136-0500 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58160 #8 (8 connections now open)
+2017-02-18T01:42:45.180-0500 I NETWORK  [conn7] end connection 127.0.0.1:58159 (7 connections now open)
+2017-02-18T01:42:45.180-0500 I NETWORK  [conn8] end connection 127.0.0.1:58160 (7 connections now open)
+2017-02-18T01:48:16.134-0500 I NETWORK  [conn1] end connection 127.0.0.1:58156 (5 connections now open)
+2017-02-18T01:48:16.134-0500 I NETWORK  [conn2] end connection 127.0.0.1:58151 (5 connections now open)
+2017-02-18T01:48:16.135-0500 I NETWORK  [conn6] end connection 127.0.0.1:58154 (5 connections now open)
+2017-02-18T01:48:16.135-0500 I NETWORK  [conn5] end connection 127.0.0.1:58155 (5 connections now open)
+2017-02-18T01:48:16.145-0500 I NETWORK  [conn3] end connection 127.0.0.1:58152 (5 connections now open)
+2017-02-18T01:48:16.145-0500 I NETWORK  [conn4] end connection 127.0.0.1:58153 (5 connections now open)
+2017-02-18T01:51:31.076-0500 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58307 #9 (1 connection now open)
+2017-02-18T01:51:31.132-0500 I NETWORK  [conn9] end connection 127.0.0.1:58307 (0 connections now open)
+2017-02-18T01:51:53.443-0500 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58321 #10 (1 connection now open)
+2017-02-18T02:00:19.000-0500 I CONTROL  [thread1] Ctrl-C signal
+2017-02-18T02:00:19.000-0500 I CONTROL  [consoleTerminate] got CTRL_C_EVENT, will terminate after current cmd ends
+2017-02-18T02:00:19.001-0500 I FTDC     [consoleTerminate] Shutting down full-time diagnostic data capture
+2017-02-18T02:00:19.004-0500 I CONTROL  [consoleTerminate] now exiting
+2017-02-18T02:00:19.005-0500 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2017-02-18T02:00:19.005-0500 I NETWORK  [consoleTerminate] closing listening socket: 608
+2017-02-18T02:00:19.005-0500 I NETWORK  [consoleTerminate] shutdown: going to flush diaglog...
+2017-02-18T02:00:19.005-0500 I NETWORK  [consoleTerminate] shutdown: going to close sockets...
+2017-02-18T02:00:19.005-0500 I STORAGE  [consoleTerminate] WiredTigerKVEngine shutting down
+2017-02-18T02:00:19.006-0500 I NETWORK  [conn10] end connection 127.0.0.1:58321 (0 connections now open)
+2017-02-18T02:00:19.453-0500 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2017-02-18T02:00:19.453-0500 I CONTROL  [consoleTerminate] dbexit:  rc: 12
+
+C:\Program Files\MongoDB\Server\3.2\bin>mongod --auth --port 27017 --dbpath /data/db1
+2017-02-18T02:00:39.331-0500 I CONTROL  [initandlisten] MongoDB starting : pid=12396 port=27017 dbpath=/data/db1 64-bit host=Karan
+2017-02-18T02:00:39.333-0500 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-02-18T02:00:39.333-0500 I CONTROL  [initandlisten] db version v3.2.9
+2017-02-18T02:00:39.333-0500 I CONTROL  [initandlisten] git version: 22ec9e93b40c85fc7cae7d56e7d6a02fd811088c
+2017-02-18T02:00:39.334-0500 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1p-fips 9 Jul 2015
+2017-02-18T02:00:39.335-0500 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-02-18T02:00:39.336-0500 I CONTROL  [initandlisten] modules: none
+2017-02-18T02:00:39.336-0500 I CONTROL  [initandlisten] build environment:
+2017-02-18T02:00:39.337-0500 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2017-02-18T02:00:39.338-0500 I CONTROL  [initandlisten]     distarch: x86_64
+2017-02-18T02:00:39.338-0500 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-02-18T02:00:39.338-0500 I CONTROL  [initandlisten] options: { net: { port: 27017 }, security: { authorization: "enabled" }, storage: { dbPath: "/data/db1" } }
+2017-02-18T02:00:39.341-0500 I -        [initandlisten] Detected data files in /data/db1 created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2017-02-18T02:00:39.343-0500 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=4G,session_max=20000,eviction=(threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2017-02-18T02:00:40.118-0500 I NETWORK  [HostnameCanonicalizationWorker] Starting hostname canonicalization worker
+2017-02-18T02:00:40.118-0500 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory '/data/db1/diagnostic.data'
+2017-02-18T02:00:40.123-0500 I NETWORK  [initandlisten] waiting for connections on port 27017
+2017-02-18T02:00:40.570-0500 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58547 #1 (1 connection now open)
+2017-02-18T02:01:26.927-0500 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58550 #2 (2 connections now open)
+2017-02-18T02:01:26.955-0500 I ACCESS   [conn2] Successfully authenticated as principal myUserAdmin on admin
+2017-02-18T02:01:26.960-0500 I ACCESS   [conn2] Unauthorized: not authorized on admin to execute command { getLog: "startupWarnings" }
+2017-02-18T02:01:26.962-0500 I ACCESS   [conn2] Unauthorized: not authorized on admin to execute command { replSetGetStatus: 1.0, forShell: 1.0 }
+2017-02-18T02:01:40.379-0500 I ACCESS   [conn2] Unauthorized: not authorized on test to execute command { listCollections: 1.0, filter: {} }
+2017-02-18T02:02:49.075-0500 I ACCESS   [conn1] Unauthorized: not authorized on test to execute command { insert: "userProfiles", documents: [ { firstname: "abc", lastname: "def", phone: "4253346543", email: "bharat@lakhiyani.com", _id: ObjectId('58a7f19938d1eb2604a55d09') } ], ordered: true, writeConcern: { w: 1 } }
+2017-02-18T02:04:17.328-0500 I ACCESS   [conn1] Unauthorized: not authorized on test to execute command { insert: "userProfiles", documents: [ { firstname: "abc", lastname: "def", phone: "4253346543", email: "bharat@lakhiyani.com", _id: ObjectId('58a7f1f138d1eb2604a55d0a') } ], ordered: true, writeConcern: { w: 1 } }
+2017-02-18T02:04:36.283-0500 I NETWORK  [conn2] end connection 127.0.0.1:58550 (1 connection now open)
+2017-02-18T02:04:37.968-0500 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58580 #3 (2 connections now open)
+2017-02-18T02:04:37.992-0500 I ACCESS   [conn3] Successfully authenticated as principal myUserAdmin on admin
+2017-02-18T02:04:37.996-0500 I ACCESS   [conn3] Unauthorized: not authorized on admin to execute command { getLog: "startupWarnings" }
+2017-02-18T02:04:37.999-0500 I ACCESS   [conn3] Unauthorized: not authorized on admin to execute command { replSetGetStatus: 1.0, forShell: 1.0 }
+2017-02-18T02:05:18.529-0500 I NETWORK  [conn3] end connection 127.0.0.1:58580 (1 connection now open)
+2017-02-18T02:05:30.246-0500 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58582 #4 (2 connections now open)
+2017-02-18T02:05:30.270-0500 I ACCESS   [conn4] Successfully authenticated as principal myUserAdmin on admin
+2017-02-18T02:05:30.275-0500 I ACCESS   [conn4] Unauthorized: not authorized on admin to execute command { getLog: "startupWarnings" }
+2017-02-18T02:05:30.277-0500 I ACCESS   [conn4] Unauthorized: not authorized on admin to execute command { replSetGetStatus: 1.0, forShell: 1.0 }
+2017-02-18T02:06:29.142-0500 I ACCESS   [conn1] Unauthorized: not authorized on test to execute command { insert: "userProfiles", documents: [ { firstname: "abc", lastname: "def", phone: "4253346543", email: "bharat@lakhiyani.com", _id: ObjectId('58a7f27538d1eb2604a55d0b') } ], ordered: true, writeConcern: { w: 1 } }
+2017-02-18T02:10:12.916-0500 I NETWORK  [conn1] end connection 127.0.0.1:58547 (1 connection now open)
+2017-02-18T02:11:23.072-0500 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58725 #5 (2 connections now open)
+2017-02-18T02:11:23.074-0500 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58726 #6 (3 connections now open)
+2017-02-18T02:11:23.098-0500 I ACCESS   [conn5] SCRAM-SHA-1 authentication failed for karan on test from client 127.0.0.1 ; UserNotFound: Could not find user karan@test
+2017-02-18T02:11:23.115-0500 I ACCESS   [conn6] SCRAM-SHA-1 authentication failed for karan on test from client 127.0.0.1 ; UserNotFound: Could not find user karan@test
+2017-02-18T02:11:23.119-0500 I NETWORK  [conn5] end connection 127.0.0.1:58725 (2 connections now open)
+2017-02-18T02:11:23.125-0500 I NETWORK  [conn6] end connection 127.0.0.1:58726 (1 connection now open)
+2017-02-18T02:12:17.707-0500 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58727 #7 (2 connections now open)
+2017-02-18T02:12:17.708-0500 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58728 #8 (3 connections now open)
+2017-02-18T02:12:17.753-0500 I ACCESS   [conn7] SCRAM-SHA-1 authentication failed for karan on test from client 127.0.0.1 ; UserNotFound: Could not find user karan@test
+2017-02-18T02:12:17.763-0500 I NETWORK  [conn7] end connection 127.0.0.1:58727 (2 connections now open)
+2017-02-18T02:12:17.798-0500 I ACCESS   [conn8] SCRAM-SHA-1 authentication failed for karan on test from client 127.0.0.1 ; UserNotFound: Could not find user karan@test
+2017-02-18T02:12:17.801-0500 I NETWORK  [conn8] end connection 127.0.0.1:58728 (1 connection now open)
+2017-02-18T02:14:54.292-0500 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58752 #9 (2 connections now open)
+2017-02-18T02:14:54.294-0500 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58753 #10 (3 connections now open)
+2017-02-18T02:14:54.331-0500 I ACCESS   [conn9] SCRAM-SHA-1 authentication failed for karan on test from client 127.0.0.1 ; UserNotFound: Could not find user karan@test
+2017-02-18T02:14:54.335-0500 I ACCESS   [conn10] SCRAM-SHA-1 authentication failed for karan on test from client 127.0.0.1 ; UserNotFound: Could not find user karan@test
+2017-02-18T02:14:54.339-0500 I NETWORK  [conn9] end connection 127.0.0.1:58752 (2 connections now open)
+2017-02-18T02:14:54.345-0500 I NETWORK  [conn10] end connection 127.0.0.1:58753 (1 connection now open)
+2017-02-18T02:16:14.481-0500 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58759 #11 (2 connections now open)
+2017-02-18T02:16:14.483-0500 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58760 #12 (3 connections now open)
+2017-02-18T02:16:14.505-0500 I ACCESS   [conn11] SCRAM-SHA-1 authentication failed for karan on test from client 127.0.0.1 ; UserNotFound: Could not find user karan@test
+2017-02-18T02:16:14.507-0500 I ACCESS   [conn12] SCRAM-SHA-1 authentication failed for karan on test from client 127.0.0.1 ; UserNotFound: Could not find user karan@test
+2017-02-18T02:16:14.512-0500 I NETWORK  [conn11] end connection 127.0.0.1:58759 (2 connections now open)
+2017-02-18T02:16:14.520-0500 I NETWORK  [conn12] end connection 127.0.0.1:58760 (1 connection now open)
+2017-02-18T02:18:10.563-0500 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58770 #13 (2 connections now open)
+2017-02-18T02:18:10.565-0500 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58771 #14 (3 connections now open)
+2017-02-18T02:18:10.917-0500 I ACCESS   [conn13] Successfully authenticated as principal karan on test
+2017-02-18T02:18:10.918-0500 I ACCESS   [conn14] Successfully authenticated as principal karan on test
+2017-02-18T02:18:10.942-0500 I NETWORK  [conn13] end connection 127.0.0.1:58770 (2 connections now open)
+2017-02-18T02:18:10.943-0500 I NETWORK  [conn14] end connection 127.0.0.1:58771 (1 connection now open)
+2017-02-18T02:18:32.523-0500 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58774 #15 (2 connections now open)
+2017-02-18T02:18:32.911-0500 I ACCESS   [conn15] Successfully authenticated as principal karan on test
+2017-02-18T02:18:32.932-0500 I NETWORK  [conn15] end connection 127.0.0.1:58774 (1 connection now open)
+2017-02-18T02:19:27.374-0500 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58788 #16 (2 connections now open)
+2017-02-18T02:19:27.376-0500 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58789 #17 (3 connections now open)
+2017-02-18T02:19:27.738-0500 I ACCESS   [conn16] Successfully authenticated as principal karan on test
+2017-02-18T02:19:27.738-0500 I ACCESS   [conn17] Successfully authenticated as principal karan on test
+2017-02-18T02:19:27.756-0500 I NETWORK  [conn16] end connection 127.0.0.1:58788 (2 connections now open)
+2017-02-18T02:19:27.757-0500 I NETWORK  [conn17] end connection 127.0.0.1:58789 (1 connection now open)
+2017-02-18T02:19:43.748-0500 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58792 #18 (2 connections now open)
+2017-02-18T02:19:44.017-0500 I ACCESS   [conn18] Successfully authenticated as principal karan on test
+2017-02-18T02:19:44.032-0500 I NETWORK  [conn18] end connection 127.0.0.1:58792 (1 connection now open)
+2017-02-18T02:20:14.344-0500 I NETWORK  [initandlisten] connection accepted from 127.0.0.1:58837 #19 (2 connections now open)
+2017-02-18T02:20:14.669-0500 I ACCESS   [conn19] Successfully authenticated as principal karan on test
+2017-02-18T02:21:04.299-0500 I COMMAND  [conn19] command test.userProfiles command: insert { insert: "userProfiles", documents: [ { firstname: "bharat", lastname: "lakhiyani", phone: "4252239741", email: "abc@xyz.com", _id: ObjectId('58a7f5e0874dd214fc47d664') } ], ordered: true, writeConcern: { w: 1 } } ninserted:1 keyUpdates:0 writeConflicts:0 numYields:0 reslen:40 locks:{ Global: { acquireCount: { r: 2, w: 2 } }, Database: { acquireCount: { w: 1, W: 1 } }, Collection: { acquireCount: { W: 1 } } } protocol:op_query 246ms

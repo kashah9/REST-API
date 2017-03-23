@@ -1,0 +1,11 @@
+{
+  "datasource1": {
+    "host": "localhost",
+    "port": 27017,
+    "database": "test",
+    "password": "karan",
+    "name": "datasource1",
+    "connector": "mongodb",
+    "user": "karan"
+  }
+}

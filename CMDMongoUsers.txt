@@ -1,0 +1,411 @@
+Microsoft Windows [Version 10.0.14393]
+(c) 2016 Microsoft Corporation. All rights reserved.
+
+C:\WINDOWS\system32>cd ..
+
+C:\Windows>cd ..
+
+C:\>cd "Program Files"
+
+C:\Program Files>cd MongoDB
+
+C:\Program Files\MongoDB>cd bi
+The system cannot find the path specified.
+
+C:\Program Files\MongoDB>cd bin
+The system cannot find the path specified.
+
+C:\Program Files\MongoDB>dir
+ Volume in drive C is Main
+ Volume Serial Number is 26E1-5533
+
+ Directory of C:\Program Files\MongoDB
+
+08/21/2016  10:51 PM    <DIR>          .
+08/21/2016  10:51 PM    <DIR>          ..
+02/18/2017  12:38 AM    <DIR>          Server
+               0 File(s)              0 bytes
+               3 Dir(s)  70,687,694,848 bytes free
+
+C:\Program Files\MongoDB>cd ..
+
+C:\Program Files>cd ..
+
+C:\>cd "Program Files (x86)"
+
+C:\Program Files (x86)>dir
+ Volume in drive C is Main
+ Volume Serial Number is 26E1-5533
+
+ Directory of C:\Program Files (x86)
+
+02/01/2017  01:21 AM    <DIR>          .
+02/01/2017  01:21 AM    <DIR>          ..
+04/23/2016  09:24 PM    <DIR>          Addinsoft
+09/10/2016  09:56 PM    <DIR>          Adobe
+11/15/2016  02:42 PM    <DIR>          Anvsoft
+04/16/2016  12:31 PM    <DIR>          Apple Software Update
+04/16/2016  12:31 PM    <DIR>          Bonjour
+11/23/2016  12:58 AM    <DIR>          Cisco
+09/23/2016  12:18 AM    <DIR>          CMAK
+01/23/2017  03:17 AM    <DIR>          Common Files
+02/12/2017  01:34 AM    <DIR>          Dell Wireless
+02/10/2017  11:14 PM    <DIR>          Dropbox
+05/22/2016  11:49 PM    <DIR>          EPSON Projector
+04/16/2016  03:55 AM    <DIR>          Google
+09/12/2016  05:20 PM    <DIR>          GtkSharp
+08/19/2016  12:07 AM    <DIR>          HFSExplorer
+11/15/2016  03:23 PM    <DIR>          iMobie
+11/27/2016  05:47 PM    <DIR>          Intel
+11/27/2016  05:01 PM    <DIR>          Intel Driver Update Utility
+01/11/2017  05:12 AM    <DIR>          Internet Explorer
+11/22/2016  04:08 PM    <DIR>          Java
+01/23/2017  03:15 AM    <DIR>          Microsoft Office
+05/02/2016  06:23 PM    <DIR>          Microsoft SQL Server
+02/15/2017  02:57 AM    <DIR>          Microsoft VS Code
+09/22/2016  08:36 PM    <DIR>          Microsoft.NET
+04/16/2016  03:59 AM    <DIR>          Notepad++
+04/23/2016  10:46 PM    <DIR>          Office Mix
+09/12/2016  05:20 PM    <DIR>          Pinta
+11/08/2016  05:46 PM    <DIR>          Popcorn Time
+10/10/2016  05:36 AM    <DIR>          Safari
+11/21/2016  11:19 PM    <DIR>          Screenhero, Inc
+12/22/2016  05:25 PM    <DIR>          SendBlaster XTemplates 2013
+08/17/2016  06:31 PM    <DIR>          Skype
+12/07/2016  11:54 PM    <DIR>          TeamViewer
+04/16/2016  12:29 PM    <DIR>          VideoLAN
+09/23/2016  12:18 AM    <DIR>          Windows Defender
+09/23/2016  12:18 AM    <DIR>          Windows Mail
+10/30/2016  02:44 PM    <DIR>          Windows Media Player
+07/16/2016  06:47 AM    <DIR>          Windows Multimedia Platform
+07/16/2016  06:47 AM    <DIR>          Windows NT
+10/17/2016  07:08 PM    <DIR>          Windows Photo Viewer
+07/16/2016  06:47 AM    <DIR>          Windows Portable Devices
+07/16/2016  06:47 AM    <DIR>          WindowsPowerShell
+10/17/2016  02:35 PM    <DIR>          Wondershare
+08/19/2016  12:12 AM    <DIR>          Yahoo!
+               0 File(s)              0 bytes
+              45 Dir(s)  70,687,686,656 bytes free
+
+C:\Program Files (x86)>cd ..
+
+C:\>cd "Program Files"
+
+C:\Program Files>cd MongoDB
+
+C:\Program Files\MongoDB>cd Server
+
+C:\Program Files\MongoDB\Server>dir
+ Volume in drive C is Main
+ Volume Serial Number is 26E1-5533
+
+ Directory of C:\Program Files\MongoDB\Server
+
+02/18/2017  12:38 AM    <DIR>          .
+02/18/2017  12:38 AM    <DIR>          ..
+08/21/2016  10:52 PM    <DIR>          3.2
+02/18/2017  12:38 AM    <DIR>          3.4
+               0 File(s)              0 bytes
+               4 Dir(s)  70,687,694,848 bytes free
+
+C:\Program Files\MongoDB\Server>cd 3.4
+
+C:\Program Files\MongoDB\Server\3.4>cd bin
+
+C:\Program Files\MongoDB\Server\3.4\bin>mongod --auth --port 27017
+2017-02-18T01:06:02.790-0500 I CONTROL  [initandlisten] MongoDB starting : pid=9004 port=27017 dbpath=C:\data\db\ 64-bit host=Karan
+2017-02-18T01:06:02.793-0500 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-02-18T01:06:02.795-0500 I CONTROL  [initandlisten] db version v3.4.2
+2017-02-18T01:06:02.796-0500 I CONTROL  [initandlisten] git version: 3f76e40c105fc223b3e5aac3e20dcd026b83b38b
+2017-02-18T01:06:02.798-0500 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1u-fips  22 Sep 2016
+2017-02-18T01:06:02.799-0500 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-02-18T01:06:02.801-0500 I CONTROL  [initandlisten] modules: none
+2017-02-18T01:06:02.802-0500 I CONTROL  [initandlisten] build environment:
+2017-02-18T01:06:02.805-0500 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2017-02-18T01:06:02.806-0500 I CONTROL  [initandlisten]     distarch: x86_64
+2017-02-18T01:06:02.808-0500 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-02-18T01:06:02.808-0500 I CONTROL  [initandlisten] options: { net: { port: 27017 }, security: { authorization: "enabled" } }
+2017-02-18T01:06:02.813-0500 I STORAGE  [initandlisten] exception in initAndListen: 98 Unable to create/open lock file: C:\data\db\mongod.lock The process cannot access the file because it is being used by another process.. Is a mongod instance already running?, terminating
+2017-02-18T01:06:02.816-0500 I NETWORK  [initandlisten] shutdown: going to close listening sockets...
+2017-02-18T01:06:02.817-0500 I NETWORK  [initandlisten] shutdown: going to flush diaglog...
+2017-02-18T01:06:02.819-0500 I CONTROL  [initandlisten] now exiting
+2017-02-18T01:06:02.819-0500 I CONTROL  [initandlisten] shutting down with code:100
+
+C:\Program Files\MongoDB\Server\3.4\bin>mongod --auth --port 27017
+2017-02-18T01:06:19.220-0500 I CONTROL  [initandlisten] MongoDB starting : pid=9736 port=27017 dbpath=C:\data\db\ 64-bit host=Karan
+2017-02-18T01:06:19.223-0500 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-02-18T01:06:19.225-0500 I CONTROL  [initandlisten] db version v3.4.2
+2017-02-18T01:06:19.227-0500 I CONTROL  [initandlisten] git version: 3f76e40c105fc223b3e5aac3e20dcd026b83b38b
+2017-02-18T01:06:19.228-0500 I CONTROL  [initandlisten] OpenSSL version: OpenSSL 1.0.1u-fips  22 Sep 2016
+2017-02-18T01:06:19.229-0500 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-02-18T01:06:19.230-0500 I CONTROL  [initandlisten] modules: none
+2017-02-18T01:06:19.231-0500 I CONTROL  [initandlisten] build environment:
+2017-02-18T01:06:19.232-0500 I CONTROL  [initandlisten]     distmod: 2008plus-ssl
+2017-02-18T01:06:19.235-0500 I CONTROL  [initandlisten]     distarch: x86_64
+2017-02-18T01:06:19.236-0500 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-02-18T01:06:19.237-0500 I CONTROL  [initandlisten] options: { net: { port: 27017 }, security: { authorization: "enabled" } }
+2017-02-18T01:06:19.242-0500 I -        [initandlisten] Detected data files in C:\data\db\ created by the 'wiredTiger' storage engine, so setting the active storage engine to 'wiredTiger'.
+2017-02-18T01:06:19.247-0500 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=3524M,session_max=20000,eviction=(threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2017-02-18T01:06:21.845-0500 W FTDC     [initandlisten] Failed to initialize Performance Counters for FTDC: WindowsPdhError: PdhExpandCounterPathW failed with 'The specified object was not found on the computer.' for counter '\Memory\Available Bytes'
+2017-02-18T01:06:21.845-0500 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory 'C:/data/db/diagnostic.data'
+2017-02-18T01:06:21.850-0500 I NETWORK  [thread1] waiting for connections on port 27017
+2017-02-18T01:06:21.997-0500 I NETWORK  [thread1] connection accepted from 127.0.0.1:57311 #1 (1 connection now open)
+2017-02-18T01:06:22.000-0500 I NETWORK  [thread1] connection accepted from 127.0.0.1:57312 #2 (2 connections now open)
+2017-02-18T01:06:22.079-0500 I NETWORK  [thread1] connection accepted from 127.0.0.1:57313 #3 (3 connections now open)
+2017-02-18T01:06:22.179-0500 I NETWORK  [thread1] connection accepted from 127.0.0.1:57314 #4 (4 connections now open)
+2017-02-18T01:07:47.258-0500 I NETWORK  [thread1] connection accepted from 127.0.0.1:57319 #5 (5 connections now open)
+2017-02-18T01:07:47.261-0500 I NETWORK  [conn5] received client metadata from 127.0.0.1:57319 conn5: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.4.2" }, os: { type: "Windows", name: "Microsoft Windows 8", architecture: "x86_64", version: "6.2 (build 9200)" } }
+2017-02-18T01:07:47.299-0500 I ACCESS   [conn5] Successfully authenticated as principal myUserAdmin on admin
+2017-02-18T01:07:47.305-0500 I ACCESS   [conn5] Unauthorized: not authorized on admin to execute command { getLog: "startupWarnings" }
+2017-02-18T01:07:47.310-0500 I ACCESS   [conn5] Unauthorized: not authorized on admin to execute command { replSetGetStatus: 1.0, forShell: 1.0 }
+2017-02-18T01:08:13.744-0500 I NETWORK  [thread1] connection accepted from 127.0.0.1:57329 #6 (6 connections now open)
+2017-02-18T01:08:13.746-0500 I NETWORK  [thread1] connection accepted from 127.0.0.1:57330 #7 (7 connections now open)
+2017-02-18T01:08:13.756-0500 I NETWORK  [conn6] received client metadata from 127.0.0.1:57329 conn6: { driver: { name: "nodejs", version: "2.2.24" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.14393" }, platform: "Node.js v6.9.5, LE, mongodb-core: 2.1.8" }
+2017-02-18T01:08:13.758-0500 I NETWORK  [conn7] received client metadata from 127.0.0.1:57330 conn7: { driver: { name: "nodejs", version: "2.2.24" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.14393" }, platform: "Node.js v6.9.5, LE, mongodb-core: 2.1.8" }
+2017-02-18T01:08:13.776-0500 I ACCESS   [conn6] Unauthorized: not authorized on test to execute command { find: "dummy", filter: { _id: 1 }, limit: 1, batchSize: 1, singleBatch: true }
+2017-02-18T01:09:08.049-0500 I NETWORK  [thread1] connection accepted from 127.0.0.1:57336 #8 (8 connections now open)
+2017-02-18T01:09:08.050-0500 I NETWORK  [thread1] connection accepted from 127.0.0.1:57337 #9 (9 connections now open)
+2017-02-18T01:09:08.064-0500 I NETWORK  [conn8] received client metadata from 127.0.0.1:57336 conn8: { driver: { name: "nodejs", version: "2.2.24" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.14393" }, platform: "Node.js v6.9.5, LE, mongodb-core: 2.1.8" }
+2017-02-18T01:09:08.066-0500 I NETWORK  [conn9] received client metadata from 127.0.0.1:57337 conn9: { driver: { name: "nodejs", version: "2.2.24" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.14393" }, platform: "Node.js v6.9.5, LE, mongodb-core: 2.1.8" }
+2017-02-18T01:09:08.083-0500 I ACCESS   [conn8] Unauthorized: not authorized on test to execute command { find: "dummy", filter: { _id: 1 }, limit: 1, batchSize: 1, singleBatch: true }
+2017-02-18T01:09:41.349-0500 I NETWORK  [thread1] connection accepted from 127.0.0.1:57341 #10 (10 connections now open)
+2017-02-18T01:09:41.350-0500 I NETWORK  [thread1] connection accepted from 127.0.0.1:57342 #11 (11 connections now open)
+2017-02-18T01:09:41.365-0500 I NETWORK  [conn10] received client metadata from 127.0.0.1:57341 conn10: { driver: { name: "nodejs", version: "2.2.24" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.14393" }, platform: "Node.js v6.9.5, LE, mongodb-core: 2.1.8" }
+2017-02-18T01:09:41.368-0500 I NETWORK  [conn11] received client metadata from 127.0.0.1:57342 conn11: { driver: { name: "nodejs", version: "2.2.24" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.14393" }, platform: "Node.js v6.9.5, LE, mongodb-core: 2.1.8" }
+2017-02-18T01:09:41.399-0500 I ACCESS   [conn10] Unauthorized: not authorized on test to execute command { find: "dummy", filter: { _id: 1 }, limit: 1, batchSize: 1, singleBatch: true }
+2017-02-18T01:10:13.909-0500 I NETWORK  [thread1] connection accepted from 127.0.0.1:57345 #12 (12 connections now open)
+2017-02-18T01:10:13.912-0500 I NETWORK  [thread1] connection accepted from 127.0.0.1:57346 #13 (13 connections now open)
+2017-02-18T01:10:13.920-0500 I NETWORK  [conn12] received client metadata from 127.0.0.1:57345 conn12: { driver: { name: "nodejs", version: "2.2.24" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.14393" }, platform: "Node.js v6.9.5, LE, mongodb-core: 2.1.8" }
+2017-02-18T01:10:13.922-0500 I NETWORK  [conn13] received client metadata from 127.0.0.1:57346 conn13: { driver: { name: "nodejs", version: "2.2.24" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.14393" }, platform: "Node.js v6.9.5, LE, mongodb-core: 2.1.8" }
+2017-02-18T01:10:13.938-0500 I ACCESS   [conn12] Unauthorized: not authorized on test to execute command { find: "dummy", filter: { _id: 1 }, limit: 1, batchSize: 1, singleBatch: true }
+2017-02-18T01:11:12.564-0500 I COMMAND  [conn5] command admin.test appName: "MongoDB Shell" command: create { create: "test" } numYields:0 reslen:22 locks:{ Global: { acquireCount: { r: 1, w: 1 } }, Database: { acquireCount: { W: 1 } } } protocol:op_command 193ms
+2017-02-18T01:11:28.926-0500 I NETWORK  [thread1] connection accepted from 127.0.0.1:57365 #14 (14 connections now open)
+2017-02-18T01:11:28.927-0500 I NETWORK  [thread1] connection accepted from 127.0.0.1:57366 #15 (15 connections now open)
+2017-02-18T01:11:28.937-0500 I NETWORK  [conn14] received client metadata from 127.0.0.1:57365 conn14: { driver: { name: "nodejs", version: "2.2.24" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.14393" }, platform: "Node.js v6.9.5, LE, mongodb-core: 2.1.8" }
+2017-02-18T01:11:28.939-0500 I NETWORK  [conn15] received client metadata from 127.0.0.1:57366 conn15: { driver: { name: "nodejs", version: "2.2.24" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.14393" }, platform: "Node.js v6.9.5, LE, mongodb-core: 2.1.8" }
+2017-02-18T01:11:28.956-0500 I ACCESS   [conn14] Unauthorized: not authorized on test to execute command { find: "dummy", filter: { _id: 1 }, limit: 1, batchSize: 1, singleBatch: true }
+2017-02-18T01:15:21.289-0500 I NETWORK  [thread1] connection accepted from 127.0.0.1:57412 #16 (16 connections now open)
+2017-02-18T01:15:21.290-0500 I NETWORK  [thread1] connection accepted from 127.0.0.1:57413 #17 (17 connections now open)
+2017-02-18T01:15:21.302-0500 I NETWORK  [conn16] received client metadata from 127.0.0.1:57412 conn16: { driver: { name: "nodejs", version: "2.2.24" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.14393" }, platform: "Node.js v6.9.5, LE, mongodb-core: 2.1.8" }
+2017-02-18T01:15:21.304-0500 I NETWORK  [conn17] received client metadata from 127.0.0.1:57413 conn17: { driver: { name: "nodejs", version: "2.2.24" }, os: { type: "Windows_NT", name: "win32", architecture: "x64", version: "10.0.14393" }, platform: "Node.js v6.9.5, LE, mongodb-core: 2.1.8" }
+2017-02-18T01:15:21.326-0500 I ACCESS   [conn16] Unauthorized: not authorized on test to execute command { find: "dummy", filter: { _id: 1 }, limit: 1, batchSize: 1, singleBatch: true }
+2017-02-18T01:18:03.908-0500 I -        [conn5] end connection 127.0.0.1:57319 (17 connections now open)
+2017-02-18T01:19:09.712-0500 I CONTROL  [thread2] Ctrl-C signal
+2017-02-18T01:19:09.712-0500 I CONTROL  [consoleTerminate] got CTRL_C_EVENT, will terminate after current cmd ends
+2017-02-18T01:19:09.713-0500 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2017-02-18T01:19:09.713-0500 I NETWORK  [consoleTerminate] closing listening socket: 504
+2017-02-18T01:19:09.713-0500 I NETWORK  [consoleTerminate] shutdown: going to flush diaglog...
+2017-02-18T01:19:09.713-0500 I FTDC     [consoleTerminate] Shutting down full-time diagnostic data capture
+2017-02-18T01:19:09.716-0500 I STORAGE  [consoleTerminate] WiredTigerKVEngine shutting down
+2017-02-18T01:19:10.046-0500 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2017-02-18T01:19:10.047-0500 I CONTROL  [consoleTerminate] now exiting
+2017-02-18T01:19:10.048-0500 I CONTROL  [consoleTerminate] shutting down with code:12
+
+C:\Program Files\MongoDB\Server\3.4\bin>
+
+C:\Program Files\MongoDB\Server\3.4\bin>mongod --auth --port 27017cd
+
+C:\Program Files\MongoDB\Server\3.4\bin>cd \
+
+C:\>mongo --port 27017
+'mongo' is not recognized as an internal or external command,
+operable program or batch file.
+
+C:\>cd "Program Files"
+
+C:\Program Files>cd MongoDB
+
+C:\Program Files\MongoDB>cd Server
+
+C:\Program Files\MongoDB\Server>cd 3.2
+
+C:\Program Files\MongoDB\Server\3.2>cd bin
+
+C:\Program Files\MongoDB\Server\3.2\bin>mongo --port 27017
+MongoDB shell version: 3.2.9
+connecting to: 127.0.0.1:27017/test
+> use admin
+switched to db admin
+> db.createUser(
+...   {
+...     user: "myUserAdmin",
+...     pwd: "abc123",
+...     roles: [ { role: "userAdminAnyDatabase", db: "admin" } ]
+...   }
+... )
+Successfully added user: {
+        "user" : "myUserAdmin",
+        "roles" : [
+                {
+                        "role" : "userAdminAnyDatabase",
+                        "db" : "admin"
+                }
+        ]
+}
+> ^C
+bye
+
+C:\Program Files\MongoDB\Server\3.2\bin>mongo --port 27017 -u "myUserAdmin" -p "abc123" --authenticationDatabase "admin"
+MongoDB shell version: 3.2.9
+connecting to: 127.0.0.1:27017/test
+> use admin
+switched to db admin
+2017-02-18T01:40:29.499-0500 I NETWORK  [thread1] Socket say send() errno:10053 An established connection was aborted by the software in your host machine. 127.0.0.1:27017
+> db.grantRolesToUser("myUserAdmin",[{role:"readWrite", db:"admin"}])
+2017-02-18T01:41:25.183-0500 I NETWORK  [thread1] trying reconnect to 127.0.0.1:27017 (127.0.0.1) failed
+2017-02-18T01:41:25.187-0500 I NETWORK  [thread1] reconnect 127.0.0.1:27017 (127.0.0.1) ok
+> db.grantRolesToUser("myUserAdmin",[{role:"readWrite", db:"admin"}])
+> ^C
+bye
+
+C:\Program Files\MongoDB\Server\3.2\bin>mongo --port 27017 -u "myUserAdmin" -p "abc123" --authenticationDatabase "admin"
+MongoDB shell version: 3.2.9
+connecting to: 127.0.0.1:27017/test
+> show collections
+2017-02-18T02:01:40.380-0500 E QUERY    [thread1] Error: listCollections failed: {
+        "ok" : 0,
+        "errmsg" : "not authorized on test to execute command { listCollections: 1.0, filter: {} }",
+        "code" : 13
+} :
+_getErrorWithCode@src/mongo/shell/utils.js:25:13
+DB.prototype._getCollectionInfosCommand@src/mongo/shell/db.js:773:1
+DB.prototype.getCollectionInfos@src/mongo/shell/db.js:785:19
+DB.prototype.getCollectionNames@src/mongo/shell/db.js:796:16
+shellHelper.show@src/mongo/shell/utils.js:754:9
+shellHelper@src/mongo/shell/utils.js:651:15
+@(shellhelp2):1:1
+
+> use admin
+switched to db admin
+> show collections
+system.users
+system.version
+> db.grantRolesToUser("myUserAdmin",[{role:"readWrite", db:"????"}])
+> ^C
+bye
+
+C:\Program Files\MongoDB\Server\3.2\bin>mongo --port 27017 -u "myUserAdmin" -p "abc123" --authenticationDatabase "admin"
+MongoDB shell version: 3.2.9
+connecting to: 127.0.0.1:27017/test
+> db.grantRolesToUser("myUserAdmin",[{role:"readWrite", db:""}])^C
+bye
+
+C:\Program Files\MongoDB\Server\3.2\bin>
+
+C:\Program Files\MongoDB\Server\3.2\bin>mongo --port 27017 -u "myUserAdmin" -p "abc123" --authenticationDatabase "admin"
+MongoDB shell version: 3.2.9
+connecting to: 127.0.0.1:27017/test
+> db.grantRolesToUser("myUserAdmin",[{role:"readWrite", db:"test"}])
+2017-02-18T02:05:56.184-0500 E QUERY    [thread1] Error: Could not find user myUserAdmin@test :
+_getErrorWithCode@src/mongo/shell/utils.js:25:13
+DB.prototype.grantRolesToUser@src/mongo/shell/db.js:1473:19
+@(shell):1:1
+
+> use admin
+switched to db admin
+> db.grantRolesToUser("myUserAdmin",[{role:"readWrite", db:"test"}])
+> db.createUser(
+...     {
+...       user: "reportingapp@EXAMPLE.NET",
+...       roles: [
+...          { role: "read", db: "records" }
+...       ]
+...     }
+... show collections^C
+
+> db.createUser(
+...     {
+...       user: "karan",
+...       roles: [
+...          { role: "readWrite", db: "test" }
+...       ]
+...     }
+... )
+2017-02-18T02:08:55.950-0500 E QUERY    [thread1] Error: couldn't add user: Must provide a 'pwd' field for all user documents, except those with '$external' as the user's source db :
+_getErrorWithCode@src/mongo/shell/utils.js:25:13
+DB.prototype.createUser@src/mongo/shell/db.js:1267:15
+@(shell):1:1
+
+> db.createUser(
+...     {
+...       user: "karan",
+...       pwd: "karan",
+...       roles: [
+...          { role: "readWrite", db: "test" }
+...       ]
+...     }
+... )
+Successfully added user: {
+        "user" : "karan",
+        "roles" : [
+                {
+                        "role" : "readWrite",
+                        "db" : "test"
+                }
+        ]
+}
+> db.createUser(
+...     {
+...       user: "karan@test",
+...       pwd: "karan",
+...       roles: [
+...          { role: "readWrite", db: "test" }
+...       ]
+...     }
+... )
+Successfully added user: {
+        "user" : "karan@test",
+        "roles" : [
+                {
+                        "role" : "readWrite",
+                        "db" : "test"
+                }
+        ]
+}
+> use reporting
+switched to db reporting
+> db.createUser(
+...     {
+...       user: "karan@test",
+...       pwd: "karan",
+...       roles: [
+...          { role: "readWrite", db: "test" }
+...       ]
+...     }
+... )
+Successfully added user: {
+        "user" : "karan@test",
+        "roles" : [
+                {
+                        "role" : "readWrite",
+                        "db" : "test"
+                }
+        ]
+}
+> use test
+switched to db test
+> db.createUser(
+...     {
+...       user: "karan",
+...       pwd: "karan",
+...       roles: [
+...          { role: "readWrite", db: "test" }
+...       ]
+...     }
+... )
+Successfully added user: {
+        "user" : "karan",
+        "roles" : [
+                {
+                        "role" : "readWrite",
+                        "db" : "test"
+                }
+        ]
+}
+> show collections
+> show collections
+> show collections
+userProfiles
+> db.userProfiles.find()
+{ "_id" : ObjectId("58a7f5e0874dd214fc47d664"), "firstname" : "bharat", "lastname" : "lakhiyani", "phone" : "4252239741", "email" : "abc@xyz.com" }
+>
